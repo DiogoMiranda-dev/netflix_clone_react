@@ -1,13 +1,17 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
 import Tmdb from '../service/Tmdb';
+import Header from '../components/Header';
 import FeaturedMovie from '../components/FeaturedMovie';
 import MovieRow from '../components/MoveiRow';
+import Footer from '../components/Footer';
+import Loading from '../components/Loading';
 
 export default () => {
   //Usando um state
   const [movieList, setMovieList] = useState([]);
   const [FeaturedData, setFeaturedData] = useState(null);
+  const [blackHeader, setBlackHeader] = useState(false);
 
   useEffect(() => {
     const loadAll = async () => {
@@ -27,19 +31,41 @@ export default () => {
     loadAll();
   }, []);
 
+  useEffect(() => {
+    const scrollListener = () => {
+      if (window.scrollY > 10) {
+        setBlackHeader(true);
+      } else {
+        setBlackHeader(false);
+      }
+    };
+
+    window.addEventListener('scroll', scrollListener);
+
+    return () => {
+      window.removeEventListener('scroll', scrollListener);
+    };
+  }, []);
   return (
     <div className="page">
       {/* header */}
+      <Header black={blackHeader} />
+
       {/* Destaque */}
       {FeaturedData && <FeaturedMovie item={FeaturedData} />}
 
-      {/* Listas */}
+      {/* Listas movie */}
       <section className="list">
         {movieList.map((item, key) => (
           <MovieRow key={key} title={item.title} items={item.items} />
         ))}
       </section>
+
       {/* Footer */}
+      <Footer />
+
+      {/* Loading */}
+      {movieList.length <= 0 && <Loading />}
     </div>
   );
 };

@@ -1,6 +1,24 @@
+# autor
+Feito com muito por [https://diogomiranda.dev.br/](https://diogomiranda.dev.br/)
+Feito em Live (https://www.youtube.com/watch?v=tBweoUiMsDg) para estudo de react, todos os direitos das imagens são da Netflix.
+
 # netflix_clone_react
-Aprender alguns conceitos básicos dos React.js, 
-bem como aprender/praticar os conceitos de comunicações com API
+Neste projeto busquei praticar um pouco mais sobre o React.js e Api.
+Utilizando alguns conceitos básicos do React.js, componentes e organização de pastas dentro de um projeto Web Moderno. Além de praticar os conceitos de comunicações com uma API.
+
+# API
+dados de [https://api.themoviedb.org/3](https://api.themoviedb.org/3)
+
+# clone APP
+Interface [https://www.netflix.com/](https://www.netflix.com/)
+
+## APP images
+![Screenshot_1](/img/netflix_clone_react_img0.png "Screenshot_1")
+![Screenshot_2](/img/netflix_clone_react_img1.png "Screenshot_2")
+![Screenshot_3](/img/netflix_clone_react_img2.png "Screenshot_3")
+## Responsive app
+![Screenshot_4](/img/netflix_clone_react_img_responsive0.png "Screenshot_4")
+![Screenshot_5](/img/netflix_clone_react_img_responsive1.png "Screenshot_5")
 
 # Getting Started with Create React App
 
@@ -32,43 +50,3 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
