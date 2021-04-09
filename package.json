@@ -22,7 +22,15 @@
   "eslintConfig": {
     "extends": [
       "react-app"
-    ]
+    ],
+    "rules": {
+      "import/no-anonymous-default-export": [
+        "error",
+        {
+          "allowArrowFunction": true
+        }
+      ]
+    }
   },
   "browserslist": {
     "production": [
