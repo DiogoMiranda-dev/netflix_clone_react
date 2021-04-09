@@ -45,6 +45,7 @@ export default ({ title, items }) => {
               <div key={key} className="movieRow--item">
                 <img
                   src={`https://image.tmdb.org/t/p/w300${item.poster_path}`}
+                  alt="Movie"
                 />
               </div>
             ))}

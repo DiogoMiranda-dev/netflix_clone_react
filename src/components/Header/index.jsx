@@ -5,10 +5,16 @@ export default ({ black }) => {
   return (
     <header className={black ? 'black' : ''}>
       <div className="header--logo">
-        <img src="http://pngimg.com/uploads/netflix/netflix_PNG25.png" />
+        <img
+          src="http://pngimg.com/uploads/netflix/netflix_PNG25.png"
+          alt="logo"
+        />
       </div>
       <div className="header--user">
-        <img src="https://pbs.twimg.com/profile_images/1240119990411550720/hBEe3tdn_400x400.png" />
+        <img
+          src="https://pbs.twimg.com/profile_images/1240119990411550720/hBEe3tdn_400x400.png"
+          alt="user"
+        />
       </div>
     </header>
   );
