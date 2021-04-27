@@ -12,7 +12,7 @@ Feito em Live (https://www.youtube.com/watch?v=tBweoUiMsDg) para estudo de react
 # API
 dados de [https://api.themoviedb.org/3](https://api.themoviedb.org/3)
 
-# clone APP
+# Clone APP
 Interface [https://www.netflix.com/](https://www.netflix.com/)
 
 ## APP images
