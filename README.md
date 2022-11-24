@@ -29,7 +29,7 @@ Neste projeto busquei praticar um pouco mais sobre o React.js e Api.
 Utilizando alguns conceitos básicos do React.js, componentes e organização de pastas dentro de um projeto Web Moderno. Além de praticar os conceitos de comunicações com uma API.
 
 ## :computer: Demo
-[https://netflix-clone-react-rkggci5ig-diogomiranda-dev.vercel.app](https://netflix-clone-react-rkggci5ig-diogomiranda-dev.vercel.app)
+
 
 # 🚀  API
 
